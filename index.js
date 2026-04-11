@@ -21,7 +21,7 @@ function changeBoxColor() {
  */
 function addNewItem() {
   // TODO: Implement this function
-   const newItem = document.createElement('li');
+  const newItem = document.createElement('li');
   newItem.textContent = 'New Item';
 
   const list = document.getElementById('item-list');
